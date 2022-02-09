@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css2?family=Rowdies&display=swap");
+* {
+  /* CSS HEX */
+  --opal: #c7d8d8ff;
+  --feldgrau: #48605cff;
+  --palatinate-purple: #642d5eff;
+  --morning-blue: #82998eff;
+  --fuchsia-crayola: #b96bc4ff;
+}
+body {
+  background-color: var(--opal);
+  font-family: "Rowdies", cursive;
+}
+
+#splash-image {
+  width: 100vw;
+}
+
+#info {
+  color: var(--palatinate-purple);
+}
