@@ -19,3 +19,63 @@ body {
 #info {
   color: var(--palatinate-purple);
 }
+
+.box {
+  border: solid 1px black;
+  /* if you want something centered, do this on the PARENT element */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.green {
+  background-color: lightgreen;
+}
+
+.red {
+  background-color: red;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.blue {
+  background-color: steelblue;
+
+}
+
+/* all this work is done on the parent */
+/* you think of this as the parent bossing around the child elements */
+/* .boxes { 
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+} */
+
+.boxes {
+  border: solid 1px black;
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-rows: 50% 50%;
+}
+
+.top-row {
+  display: grid;
+  grid-template-columns: 33.333% 33.333% 33.333%;
+}
+
+.bottom-row {
+  display: grid;
+  grid-template-columns: 33% 20% 47%;
+}
+
+
+.right-box {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
