@@ -43,7 +43,6 @@ body {
 
 .blue {
   background-color: steelblue;
-
 }
 
 /* all this work is done on the parent */
@@ -74,8 +73,11 @@ body {
   grid-template-columns: 33% 20% 47%;
 }
 
-
 .right-box {
   display: grid;
   grid-template-rows: 50% 50%;
+}
+
+.hide {
+  display: none;
 }
