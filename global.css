@@ -93,7 +93,7 @@ body {
     grid-area: col2;
   }
 
-  .info {
+  #info {
     grid-area: col1;
   }
 }
