@@ -21,3 +21,10 @@ form.addEventListener("submit", (event) => {
   // add the class hide to the form
   form.classList.add("hide");
 });
+
+const clickMe = document.getElementById("click-me");
+const audioTag = document.getElementById("audio");
+clickMe.addEventListener("click", () => {
+  console.log("clicking!!");
+  audioTag.play();
+});
