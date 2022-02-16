@@ -81,3 +81,25 @@ body {
 .hide {
   display: none;
 }
+
+@media (min-width: 700px) {
+  body {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas: "col1 col2";
+  }
+
+  img {
+    grid-area: col2;
+  }
+
+  .info {
+    grid-area: col1;
+  }
+}
+
+@media (max-width: 400px) {
+  body {
+    font-size: 2rem;
+  }
+}
